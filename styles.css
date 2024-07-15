@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+    height: 60%;
+    width: 70%;
+}
+
+.carousel-item .custom-img {
+    width: 100%;  /* Adjusts width to account for padding */
+    height: 80%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures images cover the space without distortion */
+    
+}
+
+h1 {
+    color: green;
+    font-size: xx-large;
+    font-weight: bold; /* Ensures consistency across browsers */
+}
+
+.custom-margin {
+    margin-top: 2rem; /* Top margin */
+    margin-bottom: 9rem; /* Bottom margin */
+    margin-left: 25rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+    padding: 1rem; /* Space inside the caption box */
+    border-radius: 10px; /* Rounded corners for aesthetic appeal */
+}
+
+p {
+    font-size: x-large;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-style: oblique;
+}
